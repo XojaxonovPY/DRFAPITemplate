@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django_filters",
     # -----drf--------
     'rest_framework',
-    "corsheaders"
+    "corsheaders",
     'drf_spectacular',
     'drf_spectacular_sidecar',
     # -----jwt------
