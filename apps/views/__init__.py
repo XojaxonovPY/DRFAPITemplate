@@ -1,1 +1,1 @@
-from apps.views.main import *
+from apps.views.user import *

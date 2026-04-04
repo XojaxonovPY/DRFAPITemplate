@@ -129,7 +129,7 @@ MEDIA_ROOT = join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
-
+AUTH_USER_MODEL = 'apps.User'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # ======================================================Rest API==============================================
@@ -152,7 +152,6 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_FILTER_BACKENDS': [
         'django_filters.rest_framework.DjangoFilterBackend',
-        'rest_framework.filters.SearchFilter',
     ],
 }
 
